@@ -12,6 +12,7 @@ was on **backtesting**, **paper trading** is now possible using:
 
  * [Bitstamp](https://www.bitstamp.net/) for Bitcoins
  * [Xignite](https://www.xignite.com/) for stocks
+ * [Ripple](https://www.rippletrade.com/) for Ripple Network currencies
 
 and **live trading** is now possible using:
 
