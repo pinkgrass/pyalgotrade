@@ -8,7 +8,8 @@ from pyalgotrade.stratanalyzer import sharpe
 # Richard Crook <richard@pinkgrass.org>
 
 def main(plot):
-    instrument = 'BTC.E2q_XRP' # btc2ripple rMwjYedjc7qqtKYVLiAccJSmCwih4LnE2q
+    instrument = 'BTC.E2q/XRP' # btc2ripple rMwjYedjc7qqtKYVLiAccJSmCwih4LnE2q
+    # BTC.59B/USD.59B, USD.E2q/XRP, 
 
     smaPeriod = 163
 

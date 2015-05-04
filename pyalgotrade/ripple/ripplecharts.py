@@ -265,6 +265,8 @@ if __name__ == '__main__':
     import csv
 
     markets = top_markets()
+    for market in markets:
+        print market
     assert len(markets) > 0
 
     instrument = 'BTC.E2q/XRP' # BTC/XRP rMwjYedjc7qqtKYVLiAccJSmCwih4LnE2q
