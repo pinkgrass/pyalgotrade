@@ -274,6 +274,7 @@ if __name__ == '__main__':
 
     # Test download from RippleData
     bars = download_csv(instrument,'2015-03-30', '2015-03-31',bar.Frequency.HOUR)
+    print bars
     assert len(bars) == 5549
       
     # Test download to CSV
@@ -310,4 +311,3 @@ if __name__ == '__main__':
     
     # Test build_feed_recent
     feed = build_feed_recent([instrument], periods=24, storage='../../samples/data/', frequency=bar.Frequency.HOUR)
-    

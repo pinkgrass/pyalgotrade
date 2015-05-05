@@ -50,6 +50,7 @@ setup(
         'pyalgotrade.websocket',
         'pyalgotrade.xignite',
         'pyalgotrade.ripple',
+        'pyalgotrade.oanda',
     ],
     install_requires=[
         'numpy',
